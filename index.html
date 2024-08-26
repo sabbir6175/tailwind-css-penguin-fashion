@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Tailwind CSS Simple web template</title>
+    <style>
+        .roboto{
+            font-family: "Roboto", sans-serif;
+        }
+        .bebas-neue-regular{
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+    </style>
+    
+</head>
+<body class="roboto">
+    <header class="bg-[#FFFBF0] ">
+        <div class="w-4/5 m-auto px-0 md:px-4 lg:px-6 py-0 md:py-6 bg-[#FFFBF0]">
+            <!-- navbar -->
+            <div class="flex justify-between items-center pt-6 gap-4 ">
+                <div class="w-44 md:w-64 lg:w-72 h-9 flex items-center">
+                    <img src="images/Group 33072.png" alt="">
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-bars text-3xl md:hidden"></i>
+                    </div>
+                    <nav class="hidden md:block">
+                        <ul class="flex p-3 gap-3 lg:gap-7 ">
+                            <li class="hover:bg-red-400 rounded hover:underline  "><a class="text-[#3C3C3C] text-[15px] lg::text-base font-medium" href="#">Home</a></li>
+                            <li class="hover:bg-red-400 rounded hover:underline"><a class="text-[#3C3C3C] text-[15px] lg::text-base font-medium" href="#">Product</a></li>
+                            <li class="hover:bg-red-400 rounded hover:underline"><a class="text-[#3C3C3C] text-[15px]  lg:text-base font-medium" href="#">About Us</a></li>
+                            <li class="hover:bg-red-400 rounded hover:underline"><a class="text-[#3C3C3C] text-[15px] lg:text-base font-medium" href="#">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- banner section -->
+            <div class=" flex flex-col md:flex-row items-center justify-between gap-5 pt-10 ">
+                 <div>
+                <div class="bebas-neue-regular text-[#FABE4C] text-[27px] md:text-[31px] lg:text-[43px] lg:leading-[50px] font-bold uppercase leading-loose">
+                    <span class=" ">Be the Penguins</span>
+                    <br>
+                    <span class="text-[#363958] ">of Winter</span>
+                </div>
+                    <p class="mt-5  text-[#3E3E3E] text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="mt-5  border-2 px-5 py-2 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white rounded-2xl"><i         class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                 </div>
+                 <div class="">
+                    <img class="" src="images/model.png" alt="">
+                 </div>
+            </div>
+        </div>  
+    </header>
+    <main class="w-4/5 m-auto">
+        <!-- Woman jacket -->
+        <section class="py-14 md:py-24">
+            <h2 class="text-left text-3xl md:text-5xl font-bold mb-10 uppercase ">Woman Jacket</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 rounded">
+                <div class="p-3 shadow border-2 rounded-3xl">
+                    <img class="w-full mb-3" src="images/jacket-1.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-[#363958]">Yellow Coat Jacket</h3>
+                    <p class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem eius repellendus.</p>
+                    <div class="items-center flex justify-between">
+                        <span class="text-[#FABE4C]  text-3xl md:text-4xl font-bold">$234</span>
+                        <button class="bg-gradient-to-r from-[#85A019] to-[#A4BC46] py-2 px-4 text-white rounded-2xl"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+
+                </div>
+                <div class="p-3 shadow border-2 rounded-3xl">
+                    <img class="w-full mb-3" src="images/jacket-2.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-[#363958]">Ladies Jacket</h3>
+                    <p class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem eius repellendus.</p>
+                    <div class="items-center flex justify-between">
+                        <span class="text-[#FABE4C] text-3xl md:text-4xl font-bold">$234</span>
+                        <button class="bg-gradient-to-r from-[#85A019] to-[#A4BC46] py-2 px-4 text-white rounded-2xl"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+
+                </div>
+                <div class="p-3 shadow border-2 rounded-3xl">
+                    <img class="w-full mb-3" src="images/jacket-3.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-[#363958]">Woman Leather Jacket</h3>
+                    <p class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem eius repellendus.</p>
+                    <div class="items-center flex justify-between">
+                        <span class="text-[#FABE4C]  text-3xl md:text-4xl font-bold">$234</span>
+                        <button class="bg-gradient-to-r from-[#85A019] to-[#A4BC46] py-2 px-4 text-white rounded-2xl"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Man Jacket -->
+         <section class="py-14 md:py-24"> 
+            <h2 class="text-left text-3xl md:text-5xl font-bold mb-10 uppercase">Man Jacket</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 rounded">
+                <div class="p-3 shadow border-2 rounded-3xl">
+                    <img class="w-full mb-3" src="images/jacket-4.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-[#363958]">Snowboard Jacket Mens</h3>
+                    <p class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem eius repellendus.</p>
+                    <div class="items-center flex justify-between">
+                        <span class="text-[#FABE4C]  text-3xl md:text-4xl font-bold">$234</span>
+                        <button class="bg-gradient-to-r from-[#85A019] to-[#A4BC46] py-2 px-4 text-white rounded-2xl"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+
+                </div>
+                <div class="p-3 shadow border-2 rounded-3xl">
+                    <img class="w-full mb-3" src="images/jacket-5.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-[#363958]">Mens Leather Jackets</h3>
+                    <p class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem eius repellendus.</p>
+                    <div class="items-center flex justify-between">
+                        <span class="text-[#FABE4C] text-3xl md:text-4xl font-bold">$234</span>
+                        <button class="bg-gradient-to-r from-[#85A019] to-[#A4BC46] py-2 px-4 text-white rounded-2xl"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+
+                </div>
+                <div class="p-3 shadow border-2 rounded-3xl ">
+                    <img class="w-full mb-3" src="images/jacket-6.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-[#363958]">Man Casual Jackets</h3>
+                    <p class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem eius repellendus.</p>
+                    <div class="items-center flex justify-between">
+                        <span class="text-[#FABE4C] text-3xl md:text-4xl font-bold">$234</span>
+                        <button class="bg-gradient-to-r from-[#85A019] to-[#A4BC46] py-2 px-4 text-white rounded-2xl"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+                    </div>
+
+                </div>
+            </div>
+         </section>
+         <!-- simple design -->
+         <section class="py-14 md:py-24"> 
+             <div class="flex flex-col-reverse md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 items-center">
+               
+                <div class="flex flex-col gap-16 text-center md:text-left">
+                        <!-- first box -->
+                    <div class="flex flex-col md:flex-row gap-4 items-center">
+                        <div class="w-24 h-24">
+                            <img class=" w-24 h-24" src="images/image 12.png" alt="Picture">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl text-[#363958] font-extrabold">Find the Perfect fit</h1>
+                            <p class="text-base text-[#3E3E3E] font-medium">Everybody is different, which is why we  offer style for every body.</p>
+                        </div>
+                    </div>
+                        <!-- second box -->
+                    <div class="flex flex-col md:flex-row gap-4 items-center">
+                        <div class="w-24 h-24">
+                            <img class=" w-24 h-24" src="images/image 13.png" alt="Picture">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl text-[#363958] font-extrabold">Free Exchanges</h1>
+                            <p class="text-base text-[#3E3E3E] font-medium">One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                    </div>
+                        <!-- third box -->
+                    <div class="flex flex-col md:flex-row gap-4 items-center">
+                        <div class="w-24 h-24">
+                            <img class=" w-24 h-24" src="images/image 14.png" alt="Picture">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl text-[#363958] font-extrabold">Contact Our Seller</h1>
+                            <p class="text-base text-[#3E3E3E] font-medium">They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- img area -->
+                <div class="w-full md:h-[400px] lg:[335px] flex m-auto border-2 border-dashed">
+                    <img class="w-full md:h-[400px] lg:[335px]  p-4 " src="images/shopping.png" alt="">
+                </div>
+             </div>
+          </section>
+        
+    </main>
+</body>
+</html>
